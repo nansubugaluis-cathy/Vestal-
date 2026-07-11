@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VESTRA — Premium Laundry Solutions | Uganda</title>
+  <meta name="description" content="VESTRA — Uganda's premium laundry solutions. Professional-grade detergents, stain removers, and garment care products for commercial and home use.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%231B3A5C'/><text x='50' y='68' font-size='52' font-weight='900' fill='%2300A86B' text-anchor='middle' font-family='sans-serif'>V</text></svg>">
+</head>
+<body>
+
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    🚚 <span>Free delivery</span> within Kampala on orders over UGX 100,000 — <span>Order now!</span>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">
+        <div class="logo-icon">V</div>
+        VESTRA
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#products">Products</a>
+        <a href="#why">Why VESTRA</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="cart-btn" id="cartBtn" aria-label="Shopping cart">
+          🛒
+          <span class="cart-badge" id="cartBadge" style="display:none">0</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav -->
+  <div class="mobile-nav" id="mobileNav">
+    <button class="mobile-close" id="mobileClose">&times;</button>
+    <a href="#home" class="mobile-link">Home</a>
+    <a href="#products" class="mobile-link">Products</a>
+    <a href="#why" class="mobile-link">Why VESTRA</a>
+    <a href="#reviews" class="mobile-link">Reviews</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div>
+        <div class="hero-badge"><span class="dot"></span> Uganda's #1 Laundry Brand</div>
+        <h1>Professional Care, <span>Premium</span> Results</h1>
+        <p>From heavy-duty stain removal to crisp garment finishing — VESTRA delivers professional-grade laundry solutions trusted across Uganda.</p>
+        <div class="hero-actions">
+          <a href="#products" class="btn btn-white">Shop Products</a>
+          <a href="#contact" class="btn btn-outline" style="color:white;border-color:rgba(255,255,255,0.3)">Contact Us</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="hero-card">
+          <img src="https://app.zaro.ai/api/console/workspaces/oss/read?workspace_id=670d9e6d-edec-462e-af11-3e7cdbe6cc18&object_id=public-72bc64e5-b16f-4380-a360-6ed6fa5f68cd" alt="VESTRA Heavy-Duty Stain Remover">
+          <div class="hc-name">Heavy-Duty Stain Remover</div>
+          <div class="hc-price">UGX 50,000</div>
+          <div class="hc-rating">★★★★★ 4.9 (58 reviews)</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Bar -->
+  <div class="stats-bar">
+    <div class="container">
+      <div class="stats-grid" id="statsGrid">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Products Section -->
+  <section class="section" id="products">
+    <div class="container">
+      <div class="section-header">
+        <span class="label">Our Products</span>
+        <h2>Premium Laundry Solutions</h2>
+        <p>Professional-grade products formulated for Uganda's toughest laundry challenges.</p>
+      </div>
+      <div class="category-filter" id="categoryFilter">
+        <!-- Filled by JS -->
+      </div>
+      <div class="products-grid" id="productsGrid">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Why VESTRA -->
+  <section class="why-vestra section" id="why">
+    <div class="container">
+      <div class="section-header">
+        <span class="label">Why Choose Us</span>
+        <h2>Why VESTRA?</h2>
+        <p>We're committed to delivering premium quality and professional results for every wash.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="fc-icon">🧪</div>
+          <h3>Professional Formulas</h3>
+          <p>Engineered with advanced enzyme technology and plant-based ingredients for superior cleaning power.</p>
+        </div>
+        <div class="feature-card">
+          <div class="fc-icon">🛡️</div>
+          <h3>Fabric-Safe</h3>
+          <p>Tough on stains but gentle on fabrics. Safe for all colors, delicates, and machine types.</p>
+        </div>
+        <div class="feature-card">
+          <div class="fc-icon">🇺🇬</div>
+          <h3>Made for Uganda</h3>
+          <p>Formulated for local water conditions and washing habits. Trusted by homes and businesses across Uganda.</p>
+        </div>
+        <div class="feature-card">
+          <div class="fc-icon">🚚</div>
+          <h3>Fast Delivery</h3>
+          <p>Free delivery within Kampala on orders over UGX 100,000. Reliable shipping countrywide.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section class="reviews-section section" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <span class="label">Testimonials</span>
+        <h2>What Our Customers Say</h2>
+        <p>Real feedback from real Ugandan customers who trust VESTRA.</p>
+      </div>
+      <div class="reviews-grid" id="reviewsGrid">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>Get in Touch</h2>
+          <p>Have questions about our products, bulk orders, or becoming a distributor? We'd love to hear from you.</p>
+          <div class="contact-detail">
+            <div class="cd-icon">📍</div>
+            <div>
+              <div class="cd-label">Address</div>
+              <div class="cd-value">VESTRA HQ, Kampala, Uganda</div>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="cd-icon">📞</div>
+            <div>
+              <div class="cd-label">Phone / WhatsApp</div>
+              <div class="cd-value">+256 700 000001</div>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="cd-icon">✉️</div>
+            <div>
+              <div class="cd-label">Email</div>
+              <div class="cd-value">cathy@gmail.com</div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form" id="contactForm">
+          <h3>Send us a Message</h3>
+          <form id="messageForm" netlify>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="msgName">Your Name *</label>
+                <input type="text" id="msgName" name="name" required placeholder="Enter your name">
+              </div>
+              <div class="form-group">
+                <label for="msgEmail">Email Address *</label>
+                <input type="email" id="msgEmail" name="email" required placeholder="your@email.com">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="msgSubject">Subject</label>
+              <select id="msgSubject" name="subject">
+                <option value="General Inquiry">General Inquiry</option>
+                <option value="Bulk Purchase">Bulk Purchase</option>
+                <option value="Distributor Application">Distributor Application</option>
+                <option value="Product Question">Product Question</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="msgMessage">Your Message *</label>
+              <textarea id="msgMessage" name="message" required placeholder="How can we help you?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">VESTRA</div>
+          <p>Uganda's premium laundry solutions brand. Professional-grade detergents, stain removers, and garment care products trusted by homes and businesses across the country.</p>
+        </div>
+        <div>
+          <h4>Products</h4>
+          <ul>
+            <li><a href="#products">Stain Care</a></li>
+            <li><a href="#products">Everyday Detergent</a></li>
+            <li><a href="#products">Garment Finish</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#why">About VESTRA</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Become a Distributor</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>📍 Kampala, Uganda</li>
+            <li>📞 +256 700 000001</li>
+            <li>✉️ cathy@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 VESTRA. All rights reserved. | Premium Laundry Solutions, Uganda.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Cart Overlay & Drawer -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <div class="cart-drawer" id="cartDrawer">
+    <div class="cart-header">
+      <h3>🛒 Your Cart</h3>
+      <button class="cart-close" id="cartClose">&times;</button>
+    </div>
+    <div class="cart-items" id="cartItems">
+      <div class="cart-empty">Your cart is empty</div>
+    </div>
+    <div class="cart-footer" id="cartFooter" style="display:none">
+      <div class="cart-total">
+        <span>Total:</span>
+        <span class="total-price" id="cartTotal">UGX 0</span>
+      </div>
+      <button class="btn btn-primary" id="checkoutBtn">🛒 Checkout via WhatsApp</button>
+      <button class="btn btn-outline" id="clearCartBtn">Clear Cart</button>
+    </div>
+  </div>
+
+  <!-- Product Detail Modal -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="productModal">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <div class="modal-body" id="modalBody">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/256700000001" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp" title="Chat with us on WhatsApp">
+    💬
+  </a>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
